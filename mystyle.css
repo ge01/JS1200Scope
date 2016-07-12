@@ -1,0 +1,24 @@
+div {
+  border-style: dashed;
+  border-color: #43526f;
+}
+.relative {
+  border-style: solid;
+  border-color: #bcdef1;
+  background-color: #fa1234;
+  color: #bbccee;
+  text-align: center;
+  max-width: 500px;
+  position: relative;
+  left: 40px;
+}
+.relative-globe {
+  border-style: solid;
+  border-color: #246810;
+  background-color: #987412;
+  color: #852585;
+  text-align: center;
+  max-width: 500px;
+  position: relative;
+  left: 80px;
+}
