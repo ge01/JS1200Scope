@@ -28,3 +28,11 @@ document.getElementById("auto").innerHTML = "I can display " + carNameA;
 function myFunctionA(){
   carNameA = "Tesla";
 }
+
+/******************************************************
+*                Global Variables in HTML             *
+******************************************************/
+var carNameH = "Honda";
+
+// code here can use window.carNameH
+document.getElementById("win-var").innerHTML = "I can display " + window.carNameH;
