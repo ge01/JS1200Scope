@@ -17,3 +17,14 @@ myFunctionG();
 function myFunctionG() {
   document.getElementById("global").innerHTML = "I can display " + carNameG;
 }
+
+/******************************************************
+*                 Automatically Global                *
+******************************************************/
+myFunctionA();
+
+document.getElementById("auto").innerHTML = "I can display " + carNameA;
+
+function myFunctionA(){
+  carNameA = "Tesla";
+}

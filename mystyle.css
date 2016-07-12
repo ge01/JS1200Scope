@@ -22,3 +22,18 @@ div {
   position: relative;
   left: 80px;
 }
+.relative-a {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+.absolute-a {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #123789;
+}
